@@ -6,3 +6,7 @@ def inicio(request):
 
 def terminos(request):
     return render(request,'index/Terminos.html')
+
+
+def loginvista(request):
+    return render(request,'index/loginvista.html')

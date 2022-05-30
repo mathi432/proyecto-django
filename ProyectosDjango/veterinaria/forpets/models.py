@@ -3,6 +3,12 @@ from tkinter import CASCADE
 from django.db import models
 
 # Create your models here.
+
+
+
+
+
+
 class RegistroM(models.Model):
     idRegistroM = models.AutoField(primary_key=True,verbose_name="ID auntoincremental de registro")
     nombreDue = models.CharField(max_length=30,verbose_name="nombre del dueño",blank=False,null=False)

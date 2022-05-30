@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/registro.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+
+                <h1>Iniciar Sesion </h1>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+
+                <form method="post" enctype="multipart/form-data" id="formulario">
+
+                    <label class="colorTexto">Correo</label>
+                    <input class="form-control" type="email" name="email" id="correo" required
+                        placeholder="Ingrese el correo">
+
+                    <label class="colorTexto">Contraseña</label>
+                    <input class="form-control" type="password" name="nombre" id="pass1"
+                        placeholder="Ingrese la contraseña">
+
+                    <label class="colorTexto">Nombre del usuario</label>
+                    <input class="form-control" type="password" name="nombre" id="pass2"
+                        placeholder="ingrese le usuario">
+
+                    <a href="/login responsive/registrarvista.html">eliminar o editar usuarios</a>
+                    <br>
+                    <input class="btn btn-dark colorTexto botones" type="reset" value="Borrar">
+                    <input class="btn btn-danger colorTexto botones" type="submit" value="Enviar">
+                    <p class="colorTexto" id="mensaje"></p>
+                </form>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row"></div>
+    </div>
+    <script src="/login responsive/contraseña/js.js"></script>
+</body>
+
+</html>

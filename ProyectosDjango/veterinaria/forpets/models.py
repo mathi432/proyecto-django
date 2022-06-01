@@ -4,6 +4,15 @@ from django.db import models
 
 # Create your models here.
 
+class  LoginVeteri(models.Model):
+    rut = models.CharField(max_length=10, verbose_name="rut del dueño",blank=False,null=False)
+    
+class RegistrarVista(models.Model):
+    nombreVeterinario = models.CharField(max_length=30, verbose_name='Nombre de la Mascota')
+    
+
+
+
 
 
 

@@ -88,7 +88,7 @@
       <img src="{% static 'img/gatos/como_cortar_el_pelo_a_un_perro_en_casa_7476_orig.jpg' %}">
       <h4>Tratamientos Para Perros</h4>
       <p>Observe todos los Servicios para perros que tenemos, y sus respectivos precios</p>
-      <a href="peluqueria_perro.html" class="btn btn-primary">Servicios Caninos</a>
+      <a href="{% url 'perro' %}" class="btn btn-primary">Servicios Caninos</a>
 
     </div>
 
@@ -96,14 +96,14 @@
       <img src="{% static 'img/carrucel/amigos-cercanos-mascotas-papel-pintado-1920x1080_48.jpg' %}" alt=''>
       <h4>trataminetos</h4>
       <p>Consulte todos los trataminetos disponibles que tenemos para su mascota</p>
-      <a href="/Tratamiento.HTML" class="btn btn-primary">nuestros trataminetos</a>
+      <a href="{% url 'tratamiento' %}" class="btn btn-primary">nuestros trataminetos</a>
     </div>
 
     <div class="card">
       <img src="{% static 'img/gatos/gato-jugando-unas.jpg' %}" alt=''>  
       <h4>Servicios para gatos</h4>
       <p>Observe todos los servicios para su minino que tenemos, y sus respectivos precios</p>
-      <a href="/peluqueria_gato.html" class="btn btn-primary">Servicios Mininos</a><!-- cambiar -->
+      <a href="{% url 'gato' %}" class="btn btn-primary">Servicios Mininos</a><!-- cambiar -->
     </div>
 
 

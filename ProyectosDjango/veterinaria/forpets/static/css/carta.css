@@ -14,13 +14,15 @@ nav a{
     padding-right: 10px;
 }
 nav a:hover{
-    color: white;
+    color: rgb(55, 0, 255);
 }
+
 
 
 a{
     text-decoration: none;
     color: black;
+    text-align: right
 }
 .logo{
     display: flex;
@@ -116,12 +118,9 @@ H3{ border: #6a6a6a;
     text-align: center;
     color: #000;    
     font-size: 20px;
+    margin: 30px;
 }
 
-a{
-    color: black;
-    text-align: right;
-}
 
 @media (max-width:700px){
     header{
@@ -131,7 +130,19 @@ a{
         padding: 10px 0px;
     }    
 }
-H1{ border: #6a6a6a;
+carousel slide{
+ justify-content: center;
+}
+carrucel{
+    display: flex;
+    min-height: px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: border;
+    padding: 10px;
+}
+h1{
+    color: black;
     text-align: center;
-    color: #000;    
+    font-size: 50px;
 }

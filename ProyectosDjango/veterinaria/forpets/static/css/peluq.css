@@ -1,0 +1,17 @@
+.credits a {
+  text-decoration: none;
+  color: black;
+}
+#main-image {
+  width: 400px;
+} 
+img {
+  width: 500px;
+}
+#logo-image{
+  width: auto;
+
+}
+#large-image{
+  width: 400px;
+}

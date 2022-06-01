@@ -1,0 +1,48 @@
+body{
+
+    background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/NVWQSYGX3RC7ZBEHLPLDVXA3PU.jpg);
+    background-size: cover;
+    text-align: center;
+    
+    
+    }
+    h1{
+    
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .colorTexto{
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .container{
+    
+        background-color: black;
+        opacity: 80%;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 20px;
+        text-align:left ;
+    }
+    
+    .botones{
+    
+        margin-top: 30px;
+    
+    
+    
+    
+    
+    }
+    a{
+        color: black;
+        text-align: right;
+    }
+
+    

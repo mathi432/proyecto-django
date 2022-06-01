@@ -23,3 +23,6 @@ def perro(request):
 
 def registrarvista(request):
     return render (request,'index/registrarvista.html')
+
+def Olvido(request):
+    return render(request,'index/Olvido.html')

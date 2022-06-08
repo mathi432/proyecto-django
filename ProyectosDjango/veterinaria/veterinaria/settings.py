@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+LOGIN_REDIRECT_URL ='/'
+LOGOUT_REDIRECT_URL ='/'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -79,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': '127.0.0.1:1521/xe',
-        'USER': 'veterinaria',
-        'PASSWORD':'admin',
+        'USER': 'clinica',
+        'PASSWORD':'123456789',
         'TEST': {
             'USER': 'default_test',
             'TBLSPACE': 'default_test_tbls',
